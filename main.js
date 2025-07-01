@@ -1,3 +1,7 @@
+//Enable prompts in JS Web
+const prompt = require('prompt-sync')();
+//If-Else Statements
+
 let age = prompt("How old are you?-> ");
 age = Number(age)
 let name = prompt("What is your name?-> ");
@@ -9,3 +13,4 @@ if (age >= 18) {
 } else {
     console.log("You are a child.");
 }
+
